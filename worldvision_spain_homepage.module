@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WorldVision Spain HomePage feature.
+ */
+
+include_once 'worldvision_spain_homepage.features.inc';
