@@ -200,8 +200,8 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => 'Somos la ONG de infancia más grande del mundo',
-      'body' => '<p class="lead-primary">Somos la ONG de infancia más grande del mundo</p>',
+      'title' => '',
+      'body' => '<p class="lead lead-primary text-center">Somos la ONG de infancia más grande del mundo</p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -241,7 +241,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $display->content['new-c84973ba-f1a1-4195-9934-6effa56694a8'] = $pane;
     $display->panels['bottom'][1] = 'new-c84973ba-f1a1-4195-9934-6effa56694a8';
     $pane = new stdClass();
-    $pane->pid = 'new-43fdb50c-a393-4831-91e1-a48efe27ae1d';
+    $pane->pid = 'new-1b066fee-04d9-4c15-a633-98c96c6019c3';
     $pane->panel = 'left';
     $pane->type = 'block';
     $pane->subtype = 'views-wv_child_slider-block';
@@ -256,13 +256,16 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'banner banner-primary',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '43fdb50c-a393-4831-91e1-a48efe27ae1d';
-    $display->content['new-43fdb50c-a393-4831-91e1-a48efe27ae1d'] = $pane;
-    $display->panels['left'][0] = 'new-43fdb50c-a393-4831-91e1-a48efe27ae1d';
+    $pane->uuid = '1b066fee-04d9-4c15-a633-98c96c6019c3';
+    $display->content['new-1b066fee-04d9-4c15-a633-98c96c6019c3'] = $pane;
+    $display->panels['left'][0] = 'new-1b066fee-04d9-4c15-a633-98c96c6019c3';
     $pane = new stdClass();
     $pane->pid = 'new-85a8115f-bbd8-4ab2-a7ac-ff5587abb217';
     $pane->panel = 'right';
@@ -273,21 +276,52 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => 'Banner I',
-      'body' => '<p>Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
-      'format' => 'filtered_html',
+      'body' => '<p class="lead">Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'format' => 'full_html',
       'substitute' => TRUE,
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'banner banner-secondary',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
     $pane->uuid = '85a8115f-bbd8-4ab2-a7ac-ff5587abb217';
     $display->content['new-85a8115f-bbd8-4ab2-a7ac-ff5587abb217'] = $pane;
     $display->panels['right'][0] = 'new-85a8115f-bbd8-4ab2-a7ac-ff5587abb217';
+    $pane = new stdClass();
+    $pane->pid = 'new-db589a3c-4327-4c53-b839-fd9b52f00892';
+    $pane->panel = 'right';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Banner Inferior',
+      'title' => 'Banner II',
+      'body' => '<p class="lead">Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'banner banner-secondary',
+    );
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = 'db589a3c-4327-4c53-b839-fd9b52f00892';
+    $display->content['new-db589a3c-4327-4c53-b839-fd9b52f00892'] = $pane;
+    $display->panels['right'][1] = 'new-db589a3c-4327-4c53-b839-fd9b52f00892';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
