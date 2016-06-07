@@ -154,13 +154,13 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'featured_bottom' => NULL,
       'top' => NULL,
       'left' => array(
-        'column_type' => 'col-sm',
+        'column_type' => 'col-md',
         'column_size' => '8',
         'offset_type' => 'col-lg-offset',
         'offset_size' => '0',
       ),
       'right' => array(
-        'column_type' => 'col-sm',
+        'column_type' => 'col-md',
         'column_size' => '4',
         'offset_type' => 'col-lg-offset',
         'offset_size' => '0',
@@ -201,7 +201,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<p class="lead lead-primary text-center">Somos la ONG de infancia más grande del mundo</p>',
+      'body' => '<h2 class="lead lead-primary text-center">Somos la ONG de infancia más grande del mundo</h2>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -248,8 +248,8 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_title' => 1,
+      'override_title_text' => 'Apadrina a un niño',
       'override_title_heading' => 'h2',
     );
     $pane->cache = array();
@@ -276,7 +276,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => 'Banner I',
-      'body' => '<p class="lead">Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'body' => '<p>Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -304,7 +304,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Banner Inferior',
       'title' => 'Banner II',
-      'body' => '<p class="lead">Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'body' => '<p>Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
