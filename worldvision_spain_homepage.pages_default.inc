@@ -275,8 +275,8 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => '',
-      'title' => 'Banner I',
-      'body' => '<p>Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'title' => 'Regalo Solidario',
+      'body' => '<p class="lead">Algunos regalos pueden cambiar vidas</p><p><a class="btn btn-primary" href="">Descúbrelos!</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -303,8 +303,8 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Banner Inferior',
-      'title' => 'Banner II',
-      'body' => '<p>Sunt nemo omnis fugit alias. Quia quod expedita ullam cumque. Asperiores nam in vel consequatur mollitia corrupti. Aperiam non nesciunt asperiores et iusto aut quas fugit.</p>',
+      'title' => 'Crisis en Siria',
+      'body' => '<p class="lead">Actualmente dos millones de niños sirios lo han perdido todo y necesitan tu ayuda.</p><p><a class="btn btn-primary" href="">Haz una donación</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
