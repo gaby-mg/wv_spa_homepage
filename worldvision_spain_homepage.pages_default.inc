@@ -285,7 +285,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'regalo-solidario',
       'css_class' => 'banner banner-secondary',
     );
     $pane->extras = array();
@@ -313,7 +313,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'crisis-siria',
       'css_class' => 'banner banner-secondary',
     );
     $pane->extras = array();
