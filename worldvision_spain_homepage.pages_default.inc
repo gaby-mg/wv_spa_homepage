@@ -45,7 +45,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Panel',
     'no_blocks' => 0,
-    'pipeline' => 'standard',
+    'pipeline' => 'ipe',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',
@@ -241,6 +241,29 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $display->content['new-c84973ba-f1a1-4195-9934-6effa56694a8'] = $pane;
     $display->panels['bottom'][1] = 'new-c84973ba-f1a1-4195-9934-6effa56694a8';
     $pane = new stdClass();
+    $pane->pid = 'new-cb5667a8-1f7b-4d21-905a-cc1d2c27aafb';
+    $pane->panel = 'bottom';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<h2 class="lead lead-primary text-center">Por una infancia libre de miedo</h2>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = 'cb5667a8-1f7b-4d21-905a-cc1d2c27aafb';
+    $display->content['new-cb5667a8-1f7b-4d21-905a-cc1d2c27aafb'] = $pane;
+    $display->panels['bottom'][2] = 'new-cb5667a8-1f7b-4d21-905a-cc1d2c27aafb';
+    $pane = new stdClass();
     $pane->pid = 'new-4e68f5f6-dbcf-431d-9f54-ab5ea52eded2';
     $pane->panel = 'bottom';
     $pane->type = 'block';
@@ -256,11 +279,11 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->style = array();
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '4e68f5f6-dbcf-431d-9f54-ab5ea52eded2';
     $display->content['new-4e68f5f6-dbcf-431d-9f54-ab5ea52eded2'] = $pane;
-    $display->panels['bottom'][2] = 'new-4e68f5f6-dbcf-431d-9f54-ab5ea52eded2';
+    $display->panels['bottom'][3] = 'new-4e68f5f6-dbcf-431d-9f54-ab5ea52eded2';
     $pane = new stdClass();
     $pane->pid = 'new-bc81d397-dba3-4d66-87c3-67cdc66ad100';
     $pane->panel = 'left';
@@ -318,7 +341,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => 'Regalo Solidario',
-      'body' => '<p class="lead">Algunos regalos pueden cambiar vidas</p><p><a class="btn btn-primary" href="">Descúbrelos!</a></p>',
+      'body' => '<p class="lead">Algunos regalos pueden cambiar vidas</p><p><a class="btn btn-primary" href="/regalo-solidario">Descúbrelos!</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
