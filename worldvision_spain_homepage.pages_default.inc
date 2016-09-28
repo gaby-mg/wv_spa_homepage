@@ -311,27 +311,6 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $display->content['new-bc81d397-dba3-4d66-87c3-67cdc66ad100'] = $pane;
     $display->panels['left'][0] = 'new-bc81d397-dba3-4d66-87c3-67cdc66ad100';
     $pane = new stdClass();
-    $pane->pid = 'new-96cb9d55-1a15-419a-a322-dc2e430f8e94';
-    $pane->panel = 'left';
-    $pane->type = 'block';
-    $pane->subtype = 'views--exp-wv_child_slider-page_1';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
-      'override_title_heading' => 'h2',
-    );
-    $pane->cache = array();
-    $pane->style = array();
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $pane->uuid = '96cb9d55-1a15-419a-a322-dc2e430f8e94';
-    $display->content['new-96cb9d55-1a15-419a-a322-dc2e430f8e94'] = $pane;
-    $display->panels['left'][1] = 'new-96cb9d55-1a15-419a-a322-dc2e430f8e94';
-    $pane = new stdClass();
     $pane->pid = 'new-85a8115f-bbd8-4ab2-a7ac-ff5587abb217';
     $pane->panel = 'right';
     $pane->type = 'custom';
@@ -341,7 +320,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => 'Regalo Solidario',
-      'body' => '<p class="lead">Algunos regalos pueden cambiar vidas</p><p><a class="btn btn-primary" href="/regalo-solidario">Descúbrelos!</a></p>',
+      'body' => '<p class="lead">Algunos regalos pueden cambiar vidas</p><p class="banner-cta"><a class="btn btn-primary" href="/regalos-solidarios">Descúbrelos!</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -369,7 +348,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Banner Inferior',
       'title' => 'Crisis en Siria',
-      'body' => '<p class="lead">Actualmente dos millones de niños sirios lo han perdido todo y necesitan tu ayuda.</p><p><a class="btn btn-primary" href="">Haz una donación</a></p>',
+      'body' => '<p class="lead">Actualmente dos millones de niños sirios lo han perdido todo y necesitan tu ayuda.</p><p class="banner-cta"><a class="btn btn-primary" href="">Haz una donación</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
