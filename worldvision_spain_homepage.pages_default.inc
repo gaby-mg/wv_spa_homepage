@@ -255,7 +255,9 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'substitute' => TRUE,
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 2;
@@ -276,7 +278,9 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'override_title_heading' => 'h2',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 3;
@@ -347,8 +351,8 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'admin_title' => 'Banner Inferior',
-      'title' => 'Crisis en Siria',
-      'body' => '<p class="lead">Actualmente dos millones de niños sirios lo han perdido todo y necesitan tu ayuda.</p><p class="banner-cta"><a class="btn btn-primary" href="">Haz una donación</a></p>',
+      'title' => 'Por una infancia sin violencia',
+      'body' => '<p class="banner-cta"><a class="btn btn-primary" href="/porunainfanciasinviolencia#tab1-1">Hazte socio</a></p>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -357,7 +361,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => 'crisis-siria',
+      'css_id' => 'haiti-mathew',
       'css_class' => 'banner banner-secondary',
     );
     $pane->extras = array();
