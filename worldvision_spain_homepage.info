@@ -1,8 +1,8 @@
 name = WorldVision Spain HomePage
 description = Provides the configuration for the Home Page of the Spanish website
 core = 7.x
-package = Features
-version = 7.x-1.4
+package = WorldVision
+version = 7.x-1.5
 dependencies[] = ctools
 dependencies[] = page_manager
 dependencies[] = panels_bootstrap_layouts
