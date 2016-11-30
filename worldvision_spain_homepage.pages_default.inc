@@ -315,6 +315,27 @@ function worldvision_spain_homepage_default_page_manager_pages() {
     $display->content['new-bc81d397-dba3-4d66-87c3-67cdc66ad100'] = $pane;
     $display->panels['left'][0] = 'new-bc81d397-dba3-4d66-87c3-67cdc66ad100';
     $pane = new stdClass();
+    $pane->pid = 'new-faef3e6a-3672-4ce0-ae83-9006bf2e4e7b';
+    $pane->panel = 'left';
+    $pane->type = 'block';
+    $pane->subtype = 'views--exp-wv_child_slider-page_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = 'faef3e6a-3672-4ce0-ae83-9006bf2e4e7b';
+    $display->content['new-faef3e6a-3672-4ce0-ae83-9006bf2e4e7b'] = $pane;
+    $display->panels['left'][1] = 'new-faef3e6a-3672-4ce0-ae83-9006bf2e4e7b';
+    $pane = new stdClass();
     $pane->pid = 'new-85a8115f-bbd8-4ab2-a7ac-ff5587abb217';
     $pane->panel = 'right';
     $pane->type = 'custom';
