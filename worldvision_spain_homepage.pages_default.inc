@@ -327,7 +327,9 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'override_title_heading' => 'h2',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 1;
@@ -382,7 +384,7 @@ function worldvision_spain_homepage_default_page_manager_pages() {
       'settings' => NULL,
     );
     $pane->css = array(
-      'css_id' => 'haiti-mathew',
+      'css_id' => 'banner-secondary-bottom',
       'css_class' => 'banner banner-secondary',
     );
     $pane->extras = array();
